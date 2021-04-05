@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-05T05:04:09.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 103876000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "As a user, I should be able to select source and destination verify the driving time",
+        "description": "",
+        "id": "verify-the-google-map;as-a-user--i-should-be-able-to-select-source-and-destination-verify-the-driving-time;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1846717000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1116077000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to Google map page",
+            "match": {
+              "location": "stepDefinitions.Steps.user_navigate_to_google_map_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 718224000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter destination point \"Orchard Road\" and press enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Orchard Road\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enter_destination_point_and_press_enter_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2639707000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on direction",
+            "match": {
+              "location": "stepDefinitions.Steps.user_click_on_direction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395533000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter starting point \"Vivo City\" and press enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vivo City\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enter_starting_point_and_press_enter_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211359000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on travel mode \"Driving\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Driving\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_click_on_travel_mode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071990000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User can see fastest route option shown takes less than 20 minutes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_can_see_fastest_route_option_shown_takes_less_than_minutes(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Google Map",
+    "description": "",
+    "id": "verify-the-google-map",
+    "keyword": "Feature",
+    "uri": "file:features/TC001_Map_Directions.feature",
+    "tags": []
+  }
+]

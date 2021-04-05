@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-04T11:08:27.744Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4497453000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Clerk should be able to upload CSV file with correct format",
+        "description": "",
+        "id": "clerk;clerk-should-be-able-to-upload-csv-file-with-correct-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 116848000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the browser",
+            "match": {
+              "location": "stepDefinitions.Steps.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1595249000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the url",
+            "match": {
+              "location": "stepDefinitions.Steps.open_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14338000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Page title should be \"Technical Challenge for CDS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Technical Challenge for CDS\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 677228000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the file upload status",
+            "match": {
+              "location": "stepDefinitions.Steps.verify_file_upload()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186372000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Clerk",
+    "description": "",
+    "id": "clerk",
+    "keyword": "Feature",
+    "uri": "file:features/TC001_Clerk.feature",
+    "tags": []
+  }
+]
