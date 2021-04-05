@@ -23,8 +23,8 @@ If get any message : "Warning message : “chromedriver” cannot be opened beca
 Getting Error Message "Driver is not executable. 
 
 Solution : 
-Navigate to Driver Folder then open in terminal
-chmod 750 chromedriver
+Navigate to Driver Folder then open in terminal and run 
+"chmod 750 chromedriver"
 
 ##### Outputs
 		Generating Report
